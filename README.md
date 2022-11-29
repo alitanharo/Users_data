@@ -2,7 +2,7 @@
 
 
 
-solution
+
 The issue is that we want to fetch some information from the server and show it on screen and when the client scroll to the end of the page program must show a loading animation for 3 seconds, fetch the next group of data and add it to the previous list and show it to screen again.
 so clearly we are talking about a scroll event.
 so I started whit adding a customer scroll bar and forcing it to all the pages to make sure that the scroll bar is visible on all devices.
