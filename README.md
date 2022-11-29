@@ -1,8 +1,7 @@
 
 
 
-Technologies
- In this app, you will see some basic concepts of JavaScript for implementing the functions as well as the typescript used in the files. some basic concepts of react for state management, such as Context and state lifting up... lazy  Loading, and Error Bandari .used some regular hooks such as useNavigate, useContext useffect, and some libraries such as react-icons and react-router and etc. Finally for the styling used some basic CSS like canvas and grid and mostly bootstrap.
+
 solution
 The issue is that we want to fetch some information from the server and show it on screen and when the client scroll to the end of the page program must show a loading animation for 3 seconds, fetch the next group of data and add it to the previous list and show it to screen again.
 so clearly we are talking about a scroll event.
