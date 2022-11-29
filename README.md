@@ -16,10 +16,7 @@ user.tsx pass the row and page limit and also an event handler to the UserList.t
 this listener checks if the received data length is more than the current data list  then he invokes the scroll handler and if there is no more user shows " No More User"s on the screen.
 ScrollHandler checks the condition to make sure the client scrolled to the end of the page, if yes the user seter set the null value to users, and this condition runs the loading component for 3 counts and at the same time, he fetches new data from the second group and add it to the rest of the current list and show on the screen. now if the client scroll on the page and there is now more data he or she faces whit this message:" No More User".
 during the fetch operation if any error occurs Errorboundary returns an error and shows on the screen .so you never see the empty white page in this app. You can navigate and move different pages from the navBar and in the New user page, you can create new users and see their profiles edited and remove them from the list. 
-problems
--To avoid the extra renders add a memo to the header but it is not so effective.
--for holding the performance I tried to avoid accessing the main DOM which is why I didn't use useRef but I am still not sure if using the window object was the best choice!
--This morning I note that I forgot to implement User navBar so I did it with a combination of grid flex and some CSS and bootstrap unfortunately I didn't have enough time to make it responsive for all devices but this at least works for medium desktops but no worry the main page is to respond but not new user page! I have to submit my solution today but if there is more time I can complete it and resend you again. no problem!
+
 
 
 
