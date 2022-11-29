@@ -1,0 +1,33 @@
+
+
+svg{
+ position: absolute;
+
+}
+
+svg > circle.large {
+  animation-name: large;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  }
+
+@keyframes large {
+  from{fill:whitesmoke;}
+  to   {fill:"#7FB900" ;}
+}
+
+
+svg > circle.medium {
+ animation-name: medium;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-out;
+ animation-delay: 2s;
+  
+}
+
+@keyframes medium {
+  from {fill: "#7FB901";}
+  to {fill: white ;} 
+}
